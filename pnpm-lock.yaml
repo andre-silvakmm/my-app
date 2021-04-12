@@ -1,4 +1,5 @@
 dependencies:
+  '@adobe/lit-mobx': 1.0.1_lit-element@2.3.1+mobx@6.2.0
   '@polymer/iron-icon': 3.0.1
   '@polymer/iron-list': 3.1.0
   '@polymer/polymer': 3.2.0
@@ -46,6 +47,7 @@ dependencies:
   '@vaadin/vaadin-time-picker': 3.0.0
   '@vaadin/vaadin-upload': 5.0.0
   lit-element: 2.3.1
+  mobx: 6.2.0
 devDependencies:
   '@types/validator': 13.1.0
   chokidar: 3.5.1
@@ -75,6 +77,16 @@ devDependencies:
   workbox-webpack-plugin: 5.1.4_webpack@4.46.0
 lockfileVersion: 5.2
 packages:
+  /@adobe/lit-mobx/1.0.1_lit-element@2.3.1+mobx@6.2.0:
+    dependencies:
+      lit-element: 2.3.1
+      mobx: 6.2.0
+    dev: false
+    peerDependencies:
+      lit-element: ^2.0.0
+      mobx: ^5.0.0 || ^6.0.0
+    resolution:
+      integrity: sha512-PV4/x2q7rdmcKwAh770fRc0dydR+XeHjCbMI0o4MiL4VYWzjt2DJ1ejeGRZkGt8cw7UCoN6CkbE0NC4mnp1Sdg==
   /@babel/code-frame/7.12.13:
     dependencies:
       '@babel/highlight': 7.13.10
@@ -133,7 +145,7 @@ packages:
       '@babel/compat-data': 7.13.15
       '@babel/core': 7.13.15
       '@babel/helper-validator-option': 7.12.17
-      browserslist: 4.16.3
+      browserslist: 4.16.4
       semver: 6.3.0
     dev: true
     peerDependencies:
@@ -2935,7 +2947,7 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-WHVocJYavUwVgVViC0ORikPHQquXwVh939TaelZ4WDqpWgTX/FsGhl/+P4qBUAGcRvtOgDgC+xftNWWp2RUTAQ==
-  /browserslist/4.16.3:
+  /browserslist/4.16.4:
     dependencies:
       caniuse-lite: 1.0.30001208
       colorette: 1.2.2
@@ -2947,7 +2959,7 @@ packages:
       node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7
     hasBin: true
     resolution:
-      integrity: sha512-vIyhWmIkULaq04Gt93txdh+j02yX/JzlyhLYbV3YQCn/zvES3JnY7TifHHvvr1w5hTDluNKMkV05cs4vy8Q7sw==
+      integrity: sha512-d7rCxYV8I9kj41RH8UKYnvDYCRENUlHRgyXy/Rhr/1BaeLGfiCptEdFE8MIrvGfWbBFNjVYx76SQWvNX1j+/cQ==
   /btoa/1.2.1:
     dev: true
     engines:
@@ -3351,7 +3363,7 @@ packages:
       integrity: sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
   /core-js-compat/3.10.1:
     dependencies:
-      browserslist: 4.16.3
+      browserslist: 4.16.4
       semver: 7.0.0
     dev: true
     resolution:
@@ -5565,6 +5577,10 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
+  /mobx/6.2.0:
+    dev: false
+    resolution:
+      integrity: sha512-j5f16JIq2v4flvYCqaAB9tMtJt/y5efR2OO5Xy+w4/MBMeQ1WeGR0T8BtiNgmxM/OQzPFUKb5DTex9Y8a/yk+g==
   /move-concurrently/1.0.1:
     dependencies:
       aproba: 1.2.0
@@ -7941,6 +7957,7 @@ packages:
     resolution:
       integrity: sha512-AX3Zw5iPruN5ie6xGRIDgqkT+ZhnRlZMLMHAs8tg7nRruy2Nb+i5o9bwghAogtM08q1dpr2LVoS8KSTMYpWXUw==
 specifiers:
+  '@adobe/lit-mobx': ^1.0.1
   '@polymer/iron-icon': 3.0.1
   '@polymer/iron-list': 3.1.0
   '@polymer/polymer': 3.2.0
@@ -8002,6 +8019,7 @@ specifiers:
   lit-element: 2.3.1
   lit-html: 1.3.0
   loader-utils: 2.0.0
+  mobx: ^6.1.5
   style-loader: ^2.0.0
   ts-loader: 8.0.12
   typescript: 4.0.3
